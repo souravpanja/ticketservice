@@ -107,7 +107,7 @@ public class SeatHoldAction extends TicketOperationImpl {
 				break;
 			}
 		}
-		System.out.println("aSeatHoldMap:"+aSeatHoldMap);
+		//System.out.println("aSeatHoldMap:"+aSeatHoldMap);
 		return aSeatHoldMap;
 
 	}

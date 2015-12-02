@@ -1,0 +1,16 @@
+Assumptions
+Below are the assumptions for the Ticket Service Homework
+1.	Data for seating arrangement and pricing details for simple venue has been given in the file “venue.txt” with semicolon separated like below. Below 1,2,3 and 4 represents LevelId then the values Level Name, Price, Rows and Seats in Rows
+1=Orchestra;100.00;25;50
+2=Main;75.00;20;100
+3=Balcony1;50.00;15;100
+4=Balcony2;40.00;15;100
+
+2.	Each ticket hold will be expired within a set of number of seconds. To make this we have to pass below three value
+•	Scheduler initial startup value in seconds
+•	Fixed time in seconds to execute the thread
+•	The duration in seconds a seat can be in hold status
+All these values had been added in the messages.properties file
+INITIAL_DELAY_SEC=120
+SUBSEQUENT_RATE_SEC=60
+HOLD_EXPIRED_IN_SEC=30

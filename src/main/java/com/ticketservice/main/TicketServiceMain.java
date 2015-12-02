@@ -28,7 +28,7 @@ public class TicketServiceMain
 
 	public static void main( String[] args )
 	{
-		System.out.println("*************Below is the outline for the three and its corresponding number**************");
+		System.out.println("*************Below is the outline for the three services and its corresponding number**************");
 		System.out.println("********************1 get the number of available seats******************************");
 		System.out.println("********************2 to find available and hold seats*******************************");
 		System.out.println("********************3 reserve the hold seat for the customer*************************");
